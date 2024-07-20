@@ -34,16 +34,22 @@ Step 1: Add homepage to package.json
     "start": "react-scripts start",
     "build": "react-scripts build",
 
+After this, 
+git add .
+git commit -m "Valuable Message"
+git push origin main
+
+
 Step 3: Deploy the site by running npm run deploy
 npm run deploy
 
 Go to this Link
-
+https://github.com/Mohit-Bairwa25/React-Text_Utility/settings
 make sure branch is gh-pages
 
 Now this is a working Link
 
-
+https://Mohit-Bairwa25.github.io/React-Text_Utility
 
 
 
