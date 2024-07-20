@@ -1,0 +1,8 @@
+import React, {useState} from 'react'
+
+To add state to a component, use one of these Hooks:
+
+const [state, setState] = useState(initialState)
+
+useState declares a state variable that you can update directly.
+useReducer declares a state variable with the update logic inside a reducer function.

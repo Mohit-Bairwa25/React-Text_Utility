@@ -1,0 +1,5 @@
+npm install react-router-dom
+
+Insted of Switches use Routes
+Insted of a use Link
+Insted of herf use to

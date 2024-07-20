@@ -1,0 +1,59 @@
+Here You Can Write Your actual Code
+
+function App() {
+  return (
+    <>
+      Wite Code Here
+    </>
+  );
+}
+
+These are JSX Rules
+
+Alwayas Use / in closing Tag like this
+<h1><h1/> or <></> in above case
+
+className is used insted of class
+
+htmlFor is used insted of class htmlfor
+
+herf='/' is used insted of herf='#'
+
+tabIndex is used insted of tabindex
+
+a samll error can mess your whole website
+
+in VS Code Settings Write "emmet"
+
+look for Emmet:Include Language
+Enter
+Key=javascript & Value=javascriptreact
+
+In JSX (JavaScript XML), you can add comments using curly braces {}. Here are two ways to do it:
+
+Single-line comment: To comment a single line, use the following syntax:
+{/* This is a single-line comment */}
+
+Multi-line comment: For multi-line comments, wrap them in curly braces and use the /* */ syntax:
+<div className="dropdown">
+  {/* whenClicked is a property, not an event */}
+  <Button whenClicked={this.handleClick} className="btn-default" title={this.props.title} subTitleClassName="caret"></Button>
+  <UnorderedList />
+</div>
+
+you can write css in App.css
+
+Use scrit mode
+<script>"use strict";<script/>
+
+It imposeses restrictions & Helps you write a clean Code
+
+like 
+
+d=30; in normal mode it will run
+but in strict mode it will throw error
+ you have to write 
+ let d=90;
+ 
+
+

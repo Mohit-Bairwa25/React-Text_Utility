@@ -1,0 +1,22 @@
+It Requires Node.js, extension React DeveloperTools,
+ThunderClient VS Code Extension,ES7 React/Redux/GraphQL/React-Native snippe
+Auto Rename Tag, Bracket Pair Colouriser
+
+React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.
+
+Open VS Code Terminal
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+here "my-app" is app name
+
+npm start
+
+it wil start your react website on localhost:3000
+
+npm run build
+
+It will create a Build Folder of Your App For Ready for Hosting
+

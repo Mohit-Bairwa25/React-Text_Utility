@@ -1,0 +1,6 @@
+The .my-3 class in Bootstrap is a spacing utility that sets vertical margin for an element. Let’s break it down:
+
+m: Indicates that this class sets margin.
+y: Refers to both top and bottom margins.
+3: Represents the size of the margin (in this case, it’s medium).
+So, .my-3 adds a medium vertical margin to the element. You can adjust the size (from 0 to 5) based on your design needs. For example, .my-0 removes the margin, while .my-5 adds a larger margin.

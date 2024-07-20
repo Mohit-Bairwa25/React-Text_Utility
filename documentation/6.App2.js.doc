@@ -1,0 +1,11 @@
+let name = "Harry";
+function App() {
+  return (
+    <>
+      <h1> Hello {name}</h1> /*in curly Bracket name will act as javascript object*/
+    </h1>
+  );
+}
+
+{curly brackets are used to pass javascript inside html}
+output: Hello Harry

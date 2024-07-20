@@ -1,0 +1,25 @@
+Suppose There are 2 Files module1.mjs and module2.mjs
+
+module1.mjs
+
+import ui, {a,c} from './module2.mjs'
+console.log(ui);
+
+output: 
+Priyanka
+Harry
+Akash
+
+module2.mjs
+
+const a = "Harry";
+const b = "Rohan";
+const c = "Akash";
+const d = "Priyanka";
+
+export default d
+export{a};
+export{c};
+
+to run module1.mjs type node
+node src\Components\module1.mjs
