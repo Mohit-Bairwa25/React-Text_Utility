@@ -1,25 +1,33 @@
 import React from "react";
-import logo from './logo.svg';
 
-let name = "Bairwa & Company";
-export default function Homepage (){
-    return (
-        <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a className="App-link" href="https://reactjs.org" target="_blank"rel="noopener noreferrer">
-            Learn React with Mohit {name}
-          </a>
-        </header>
-        <div className="testing">
-          Applyin CSS Here in Recat
+export default function Homepage() {
+  return (
+    <div className="container my-5">
+      <header className="text-center mb-4">
+        <h1>Welcome to Text Utils</h1>
+        <p>Your one-stop solution for all text-related operations</p>
+      </header>
+
+      <div className="row text-center">
+        <div className="col-md-4">
+          <h3>Text Conversion</h3>
+          <p>Convert your text to Uppercase or Lowercase with just one click!</p>
         </div>
-        <div id="testing">
-          Applyin CSS Here in Recat
+        <div className="col-md-4">
+          <h3>Clear and Copy Text</h3>
+          <p>Easily clear or copy your text for quick operations.</p>
+        </div>
+        <div className="col-md-4">
+          <h3>Remove Extra Spaces</h3>
+          <p>Remove unnecessary spaces from your text efficiently.</p>
         </div>
       </div>
-    )
+
+      <div className="text-center mt-4">
+        <a href="/textform" className="btn btn-primary">
+          Start Using Text Utils
+        </a>
+      </div>
+    </div>
+  );
 }
