@@ -24,9 +24,9 @@ export default function Homepage() {
       </div>
 
       <div className="text-center mt-4">
-        <a to="/TextForm" className="btn btn-primary">
+        <Link to="/TextForm" className="btn btn-primary">
           Start Using Text Utils
-        </a>
+        </Link>
       </div>
     </div>
   );
