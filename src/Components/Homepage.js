@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 export default function Homepage() {
   return (
@@ -24,9 +25,9 @@ export default function Homepage() {
       </div>
 
       <div className="text-center mt-4">
-        <a to="/TextForm" className="btn btn-primary">
+        <Link to="/TextForm" className="btn btn-primary">
           Start Using Text Utils
-        </a>
+        </Link>
       </div>
     </div>
   );

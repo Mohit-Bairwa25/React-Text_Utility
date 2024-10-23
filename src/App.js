@@ -44,7 +44,7 @@ function App() {
         <div className="container my-5">
         <Alert alert={alert} mode={mode} toggleMode={toggleMode}/>
             <Routes>
-              <Route path="/homepage" element={<Homepage />} />
+              <Route path="/Homepage" element={<Homepage />} />
               <Route path="/TextForm" 
               element={<TextForm showAlert={showAlert} heading="Write Your Analyzing Text" mode={mode} toggleMode={toggleMode}/>} />
               <Route path="/About" element={<About />} />
